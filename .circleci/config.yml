@@ -10,7 +10,8 @@ jobs:
       - run:
           name: Run File
           command: |
-            go run main.go
+            mkdir test && cd test 
+            go run ../main.go
             go env
             echo $pwd
             ls
