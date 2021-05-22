@@ -9,4 +9,5 @@ jobs:
       - checkout
       - run:
           name: Run File
-          command: go run main.go  
+          command: ls && go env && go run main.go 
+
